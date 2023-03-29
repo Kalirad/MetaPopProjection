@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 MAR 2023 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 MAR 2023 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/figure2.tex
-(/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/figure2.tex
+**/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/tikz_figs/pop_icon.tex
+(/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/tikz_figs/pop_icon.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/standalone/standalone.cls
@@ -283,8 +283,8 @@ File: pgflibraryarrows.meta.code.tex 2013/12/13 v3.0.0 (rcs-revision 1.12)
 \pgfarrowlength=\dimen152
 \pgfarrowwidth=\dimen153
 \pgfarrowlinewidth=\dimen154
-) (/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/figure2.aux)
-\openout1 = `figure2.aux'.
+) (/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/tikz_figs/pop_icon.aux)
+\openout1 = `pop_icon.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -342,66 +342,38 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 452.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) <PopDynamic_with_interaction.pdf, id=4, 731.09183pt x 586.59103pt>
-File: PopDynamic_with_interaction.pdf Graphic file (type pdf)
- <use PopDynamic_with_interaction.pdf>
-Package pdftex.def Info: PopDynamic_with_interaction.pdf used on input line 19.
-(pdftex.def)             Requested size: 276.00105pt x 221.4569pt.
- <../diffusion.pdf, id=5, 297.511pt x 297.511pt>
-File: ../diffusion.pdf Graphic file (type pdf)
- <use ../diffusion.pdf>
-Package pdftex.def Info: ../diffusion.pdf used on input line 23.
-(pdftex.def)             Requested size: 51.7479pt x 51.74742pt.
- <../diffusion_2.pdf, id=6, 297.511pt x 297.511pt>
-File: ../diffusion_2.pdf Graphic file (type pdf)
- <use ../diffusion_2.pdf>
-Package pdftex.def Info: ../diffusion_2.pdf used on input line 26.
-(pdftex.def)             Requested size: 51.7479pt x 51.74742pt.
- <./tikz_figs/meta_pop.pdf, id=7, 196.65671pt x 193.78798pt>
-File: ./tikz_figs/meta_pop.pdf Graphic file (type pdf)
- <use ./tikz_figs/meta_pop.pdf>
-Package pdftex.def Info: ./tikz_figs/meta_pop.pdf used on input line 29.
-(pdftex.def)             Requested size: 103.50105pt x 101.99449pt.
- <./tikz_figs/pop_icon.pdf, id=8, 200.6446pt x 200.6456pt>
-File: ./tikz_figs/pop_icon.pdf Graphic file (type pdf)
- <use ./tikz_figs/pop_icon.pdf>
-Package pdftex.def Info: ./tikz_figs/pop_icon.pdf used on input line 32.
-(pdftex.def)             Requested size: 103.50105pt x 103.50049pt.
- <../meta_uniform.pdf, id=9, 731.13103pt x 586.59103pt>
-File: ../meta_uniform.pdf Graphic file (type pdf)
- <use ../meta_uniform.pdf>
-Package pdftex.def Info: ../meta_uniform.pdf used on input line 35.
-(pdftex.def)             Requested size: 265.65147pt x 213.1328pt.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 37.
+)) <../../loc_icon.pdf, id=4, 297.511pt x 297.511pt>
+File: ../../loc_icon.pdf Graphic file (type pdf)
+ <use ../../loc_icon.pdf>
+Package pdftex.def Info: ../../loc_icon.pdf used on input line 20.
+(pdftex.def)             Requested size: 172.5pt x 172.50201pt.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 46.
+(Font)              <20.74> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
+(Font)              <14.4> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 46.
-LaTeX Font Info:    Try loading font information for U+eur on input line 46.
+(Font)              <12> on input line 31.
+LaTeX Font Info:    Try loading font information for U+eur on input line 31.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
-)
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 49.
- [1
+) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/PopDynamic_with_interaction.pdf> <../diffusion.pdf> <../diffusion_2.pdf> <./tikz_figs/meta_pop.pdf> <./tikz_figs/pop_icon.pdf> <../meta_uniform.pdf>] (/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/figure2.aux) ) 
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../../loc_icon.pdf>] (/Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/tikz_figs/pop_icon.aux) ) 
 Here is how much of TeX's memory you used:
- 12226 strings out of 493089
- 251576 string characters out of 6134842
- 285383 words of memory out of 5000000
- 15466 multiletter control sequences out of 15000+600000
- 19804 words of font info for 41 fonts, out of 8000000 for 9000
+ 12174 strings out of 493089
+ 250663 string characters out of 6134842
+ 282383 words of memory out of 5000000
+ 15426 multiletter control sequences out of 15000+600000
+ 17382 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,67p,465b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/figure2.pdf (1 page, 79293 bytes).
+ 62i,7n,67p,476b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on /Users/Amfortas/Documents/GitHub/MetaPopProjection/figures/JTB_dem_model/tikz_figs/pop_icon.pdf (1 page, 11176 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 26 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
