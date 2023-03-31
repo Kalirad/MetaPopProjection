@@ -1,0 +1,58 @@
+\documentclass[tikz, border=2pt]{standalone}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[EULERGREEK]{sansmath}
+\sansmath
+\usetikzlibrary{arrows.meta}
+
+\begin{document}%
+
+\begin{tikzpicture}[line width=2pt]
+\tikzset{>={Latex[width=3mm,length=4mm]}}
+
+% grid
+% \draw[help lines] (-0.5, -5) grid (13, 18);
+
+
+\node[inner sep=0pt] (figa) at (0,0)
+{\includegraphics[width=0.5\textwidth]{../../loc_icon.pdf}};
+
+\draw (-2.2, 2.2) node{{\Huge\sf\textbf{P}}};
+\draw (2.2, 2.2) node{{\Huge\sf\textbf{NP}}};
+\draw (2.2, -2.2) node{{\Huge\sf\textbf{P}}};
+\draw (-2.2, -2.2) node{{\Huge\sf\textbf{NP}}};
+
+% \draw [-, line width=1.5pt, black] (-3, 2.9) -- (-3.5, 2.9) -- (-3.5, -2.9) -- (-3, -2.9); 
+
+% \draw [-, line width=1.5pt, black] (-2.9, -3.) -- (-2.9, -3.5) -- (2.9, -3.5) -- (2.9, -3.); 
+
+% \node at (-3.5,0.) [draw=none, rectangle, rotate=90, fill=white] (g1) {\sf \huge $m=10$};
+
+
+% \node at (0,-3.5) [draw=none, rectangle, rotate=0, fill=white] (g1) {\sf \huge $m=10$};
+
+
+\draw [-, line width=3pt, white] (-3, 0) -- (3,0); 
+
+
+\draw [-, line width=3pt, white] (0, -3) -- (0,3); 
+
+\draw (-1.1, -0.5) node[text=white]{{\huge\sf\textbf{Novo}}};
+
+\draw (1.1, 0.5) node[text=white]{{\huge\sf\textbf{Novo}}};
+
+\draw (1.1, -0.5) node[text=white]{{\huge\sf\textbf{OP50}}};
+
+\draw (-1.1, 0.5) node[text=white]{{\huge\sf\textbf{OP50}}};
+
+
+
+%labels
+
+
+\end{tikzpicture}
+
+
+\end{document}
