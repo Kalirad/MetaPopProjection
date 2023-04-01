@@ -14,7 +14,7 @@
 
     \node[state, on chain, minimum size=1.2cm, fill=gray!30, draw=white] at (3.5, -2)  (6) {\scriptsize Dead};
  
-  \draw (10) edge[dotted, bend right, thick, red] (9);
+  %\draw (10) edge[dotted, bend right, thick, black] (9);
   \foreach \i in {0,...,1} {
     \draw let \n1 = { int(\i+1) } in
       (\i)  edge[bend left, thick, red] (\n1);
@@ -27,23 +27,13 @@
 
   \draw    (1)  edge[bend left, thick, gray]  (2);
   \draw    (1)  edge[bend right, thick, red]  (3);
-  \draw    (2)  edge[bend left, thick, gray]  (3);
+  \draw    (2)  edge[bend left, thick, red]  (3);
 
   \draw    (0)  edge[thick, gray]  (6);
   \draw    (1)  edge[thick, gray]  (6);
   \draw    (3)  edge[thick, gray]  (6);
   \draw    (4)  edge[thick, gray]  (6);
   \draw    (5)  edge[thick, red]  (6);
-
-
-  % \foreach \i in {0,...,6}
-  %   \draw  (\i) edge[loop above, thick, red] (\i);
-  %\draw    (0)  edge[loop left]   (0);
-  %\draw    (4)  edge[loop right]  (4);
-  % \draw (1) edge[bend right, thick, gray] (8);
-  % \draw (8) edge[bend right, thick, red] (3);
-  % \draw (6) edge[thick, red] (7);
-  % \draw (8) edge[loop below, thick, gray] (8);
   
 \end{tikzpicture}
 \end{document}
