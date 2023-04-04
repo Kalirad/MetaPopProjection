@@ -1,0 +1,45 @@
+\documentclass[tikz,border=7pt]{standalone}
+\usetikzlibrary{calc,3d}
+\tikzset{
+  % ------ define the torus pic
+  pics/torus/.style n args={3}{
+    code = {
+      \begin{scope}
+        \edef\shorten{\the\dimexpr-.5\pgflinewidth\relax}
+        \providecolor{pgffillcolor}{rgb}{1,1,1}
+        \tikzstyle{torus} = [
+          line join=round,draw,line width/.expanded={\the\dimexpr2\pgflinewidth+#2*2\relax},
+          postaction={draw=pgffillcolor,line width={#2*2},shorten <=\shorten,shorten >=\shorten},
+          yscale=cos(#3)
+        ]
+        \draw[torus] circle(#1);
+        \draw[torus] (180:#1) arc (180:360:#1);
+      \end{scope}
+    }
+  },
+  % ------ define the circle pic
+  pics/circle on torus/.style n args={4}{
+    code = {
+      \begin{scope}[
+        plane x={({cos(#4)},{-cos(#3)*sin(#4)})},
+        plane y={(0,{sin(#3)})},
+        canvas is plane]
+        \draw[xshift=#1, rotate=sign(-#4)*#3] (0:#2) arc(0:180:#2);
+        \draw[xshift=#1, rotate=sign(-#4)*#3-180, densely dotted,draw opacity=.5] (0:#2) arc(0:180:#2);
+      \end{scope}
+    }
+  }
+}
+\begin{document}
+  \def\R{1cm} % <-- the big radius
+  \def\r{2.8mm} % <-- the small radius
+  \def\a{70} % <-- the view perspective angle
+  \begin{tikzpicture}[rotate=30,transform shape]
+    % draw the torus
+    \pic[fill=yellow!20]{torus={\R}{\r}{\a}};
+    % draw the circles
+    % \pic[red]{circle on torus={\R}{\r}{\a}{45}};
+    % \pic[blue]{circle on torus={\R}{\r}{\a}{110}};
+    % \pic[violet]{circle on torus={\R}{\r}{\a}{-70}};
+  \end{tikzpicture}
+\end{document}
