@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1680630239 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.pdf" "figureS4" 1680630307
+["pdflatex"] 1680683229 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.pdf" "figureS4" 1680683230
   "../torus_patt.pdf" 1680629367 60089 3af5342bdba2a64e32822ba7a1b599f0 ""
-  "../torus_patt_non_rand.pdf" 1680629690 56522 0bbe3e0e494d5e76c58f46ec07b0928f ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.aux" 1680630240 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.tex" 1680630239 1336 77ce81dd68882f1985b4665bb1180197 ""
-  "/dev/null" 1680630307 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "../torus_patt_non_rand.pdf" 1680683181 56530 37d49a75cc16d23ca400d0c3585ff1fb ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.aux" 1680683230 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.tex" 1680683229 1336 77ce81dd68882f1985b4665bb1180197 ""
+  "/dev/null" 1680683230 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1136768653 2520 53e01eef820ca829e42c1333c3fd02b9 ""
@@ -116,12 +116,12 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1614690094 2432469 029f925979fd04bcf84a624537660f14 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "figureS4.aux" 1680630240 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "figureS4.tex" 1680630239 1336 77ce81dd68882f1985b4665bb1180197 ""
+  "figureS4.aux" 1680683230 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "figureS4.tex" 1680683229 1336 77ce81dd68882f1985b4665bb1180197 ""
   "torus.png" 1680627549 492192 642038a4930b4c2775a3cb2a9952ea74 ""
   (generated)
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.log"
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.pdf"
-  "figureS4.log"
   "figureS4.pdf"
   "figureS4.aux"
+  "figureS4.log"
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.log"
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS4.pdf"
