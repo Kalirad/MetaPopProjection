@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1680627428 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.pdf" "figure4" 1680627429
+["pdflatex"] 1680706152 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.pdf" "figure4" 1680706158
   "../temp_fluct.pdf" 1680271949 77527 b483bb1678332e2ab403ab8163036040 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.aux" 1680627429 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.tex" 1680272681 1336 0bcb4b21eb210800d32f9a9412fc141d ""
-  "/dev/null" 1680627428 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.aux" 1680706153 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.tex" 1680706152 1343 4f55d64071faaaae5bc6f6f1912163a7 ""
+  "/dev/null" 1680706158 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -119,11 +119,11 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1614690094 2432469 029f925979fd04bcf84a624537660f14 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "figure4.aux" 1680627429 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "figure4.tex" 1680272681 1336 0bcb4b21eb210800d32f9a9412fc141d ""
+  "figure4.aux" 1680706153 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "figure4.tex" 1680706152 1343 4f55d64071faaaae5bc6f6f1912163a7 ""
   (generated)
-  "figure4.log"
-  "figure4.aux"
   "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.log"
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.pdf"
+  "figure4.log"
   "figure4.pdf"
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure4.pdf"
+  "figure4.aux"

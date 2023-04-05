@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1680630988 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.pdf" "figureS3" 1680630990
+["pdflatex"] 1680706252 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.pdf" "figureS3" 1680706254
   "../meta_rand_temp_samples.pdf" 1680625014 56086 bb139a742a07d9144a39568cc10dc621 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.aux" 1680630989 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.tex" 1680630988 1203 3940176d43ca2bfcfd85c463fa0f0cc1 ""
-  "/dev/null" 1680630990 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.aux" 1680706253 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.tex" 1680706252 1210 d8373721ba52e3bd01e58b5b051794dc ""
+  "/dev/null" 1680706254 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -119,11 +119,11 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1614690094 2432469 029f925979fd04bcf84a624537660f14 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "figureS3.aux" 1680630989 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "figureS3.tex" 1680630988 1203 3940176d43ca2bfcfd85c463fa0f0cc1 ""
+  "figureS3.aux" 1680706253 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "figureS3.tex" 1680706252 1210 d8373721ba52e3bd01e58b5b051794dc ""
   (generated)
-  "figureS3.aux"
   "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.pdf"
-  "figureS3.log"
   "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS3.log"
   "figureS3.pdf"
+  "figureS3.log"
+  "figureS3.aux"

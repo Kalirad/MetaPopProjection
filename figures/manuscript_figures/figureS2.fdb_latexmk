@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1680631089 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.pdf" "figureS2" 1680631090
-  "../meta_rand_samples.pdf" 1680623493 50900 bcd6eadb4c3efad265e819c6db93e68f ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.aux" 1680631090 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.tex" 1680631089 1132 2ec29202373a115856dff67f8d53cbca ""
-  "/dev/null" 1680631089 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1680706924 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.pdf" "figureS2" 1680706924
+  "../meta_rand_samples.pdf" 1680706678 48826 f50fff2f2ab2b53688c6870f0c8c728a ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.aux" 1680706924 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.tex" 1680706924 1142 10a06f0583e47102eb757d4183cbe081 ""
+  "/dev/null" 1680706924 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -119,11 +119,11 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1614690094 2432469 029f925979fd04bcf84a624537660f14 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "figureS2.aux" 1680631090 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "figureS2.tex" 1680631089 1132 2ec29202373a115856dff67f8d53cbca ""
+  "figureS2.aux" 1680706924 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "figureS2.tex" 1680706924 1142 10a06f0583e47102eb757d4183cbe081 ""
   (generated)
-  "figureS2.aux"
-  "figureS2.pdf"
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.pdf"
   "figureS2.log"
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.pdf"
+  "figureS2.pdf"
+  "figureS2.aux"
   "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.log"

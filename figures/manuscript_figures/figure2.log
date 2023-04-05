@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.2)  4 APR 2023 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.2)  5 APR 2023 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,11 +369,11 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-<../PopDynamic_with_interaction.pdf, id=4, 731.09183pt x 586.59103pt>
+<../PopDynamic_with_interaction.pdf, id=4, 731.05188pt x 586.59103pt>
 File: ../PopDynamic_with_interaction.pdf Graphic file (type pdf)
 <use ../PopDynamic_with_interaction.pdf>
 Package pdftex.def Info: ../PopDynamic_with_interaction.pdf  used on input line 19.
-(pdftex.def)             Requested size: 276.00105pt x 221.4569pt.
+(pdftex.def)             Requested size: 276.00105pt x 221.46585pt.
 <../diffusion.pdf, id=5, 297.511pt x 297.511pt>
 File: ../diffusion.pdf Graphic file (type pdf)
 <use ../diffusion.pdf>
@@ -394,12 +394,12 @@ File: ./tikz_figs/pop_icon.pdf Graphic file (type pdf)
 <use ./tikz_figs/pop_icon.pdf>
 Package pdftex.def Info: ./tikz_figs/pop_icon.pdf  used on input line 32.
 (pdftex.def)             Requested size: 103.50105pt x 103.50049pt.
-<../meta_uniform.pdf, id=9, 730.72774pt x 586.59103pt>
+<../meta_uniform.pdf, id=9, 730.84879pt x 586.59103pt>
 File: ../meta_uniform.pdf Graphic file (type pdf)
 <use ../meta_uniform.pdf>
 Package pdftex.def Info: ../meta_uniform.pdf  used on input line 35.
-(pdftex.def)             Requested size: 265.65147pt x 213.24916pt.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(pdftex.def)             Requested size: 265.65147pt x 213.21335pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 46.
@@ -422,9 +422,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,7n,67p,463b,724s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure2.pdf (1 page, 82957 bytes).
+Output written on /Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure2.pdf (1 page, 83822 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)

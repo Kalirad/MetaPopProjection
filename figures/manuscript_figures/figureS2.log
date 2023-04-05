@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.2)  4 APR 2023 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.2)  5 APR 2023 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,28 +369,28 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-<../meta_rand_samples.pdf, id=4, 1164.74785pt x 1453.83104pt>
+<../meta_rand_samples.pdf, id=4, 1092.45482pt x 1453.83104pt>
 File: ../meta_rand_samples.pdf Graphic file (type pdf)
 <use ../meta_rand_samples.pdf>
 Package pdftex.def Info: ../meta_rand_samples.pdf  used on input line 23.
-(pdftex.def)             Requested size: 345.0pt x 430.62895pt.
+(pdftex.def)             Requested size: 338.09853pt x 449.92873pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 40.
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/../meta_rand_samples.pdf>] (/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.aux) ) 
 Here is how much of TeX's memory you used:
- 12841 strings out of 480608
- 265377 string characters out of 5903631
+ 12840 strings out of 480608
+ 265361 string characters out of 5903631
  478293 words of memory out of 5000000
- 28486 multiletter control sequences out of 15000+600000
+ 28485 multiletter control sequences out of 15000+600000
  538829 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,7n,67p,464b,725s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.pdf (1 page, 61933 bytes).
+Output written on /Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figureS2.pdf (1 page, 61006 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
