@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1680704776 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.pdf" "figure1" 1680704797
+["pdflatex"] 1681305807 "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.tex" "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.pdf" "figure1" 1681305811
   "../PopDynamic_no_interaction.pdf" 1680704725 35096 77a090700b0b912373eed8072e00c8a5 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.aux" 1680704780 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.tex" 1680704775 1444 e36e18cbe468f91ad42b3bfa5117c295 ""
-  "/dev/null" 1680704797 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.aux" 1681305811 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.tex" 1681305807 1444 e36e18cbe468f91ad42b3bfa5117c295 ""
+  "/dev/null" 1681305811 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -124,14 +124,14 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1614690094 2432469 029f925979fd04bcf84a624537660f14 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "eu_wol.png" 1662471625 2432096 5793e472ff791e1ff3702732b18a0938 ""
-  "figure1.aux" 1680704780 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "figure1.tex" 1680704775 1444 e36e18cbe468f91ad42b3bfa5117c295 ""
-  "figure1e.pdf" 1680021170 16970 53ab6b86fe7f81db966180137f439258 ""
+  "figure1.aux" 1681305811 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "figure1.tex" 1681305807 1444 e36e18cbe468f91ad42b3bfa5117c295 ""
+  "figure1e.pdf" 1681305799 16953 cb7000e2a0d3910733cc8a1da30d3c26 ""
   "markov_chain.pdf" 1680511489 29213 b825d90493b54953589de3e34116933c ""
   "st_wol.png" 1662471685 2428669 b2a8b727df1f1d53c0a05c83f3f20df8 ""
   (generated)
   "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.pdf"
-  "figure1.aux"
   "figure1.log"
-  "figure1.pdf"
   "/Users/akalirad/Documents/MetaPopProjection/figures/manuscript_figures/figure1.log"
+  "figure1.pdf"
+  "figure1.aux"
