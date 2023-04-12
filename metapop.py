@@ -1,6 +1,8 @@
 """
-A matrix stage-structured model to simulate the population dynamics of P. pacificus
-over a metapopulation.
+A matrix stage-structured model to simulate the population dynamics of two 
+P. pacificus strains over a metapopulation. Strain A (RS017), is a plastic strain
+with respect to its mouth-from morphology and strain C (RS5405) is a non-plastic
+strain with respect to the same trait.
 """
 
 __author__ = 'Ata Kalirad'
