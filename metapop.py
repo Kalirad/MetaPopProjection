@@ -23,8 +23,17 @@ fec_pars = {'A': {'OP50': [22.65, 68.45, 57.05, 33.4,  4.97], 'Novo': [11.66, 62
 mf_prob = {'A': {'OP50': 0.11, 'Novo': 0.83}, 'C': {'OP50': 1.0, 'Novo': 1.0}}
 
 class Population(object):
+    """Population object.
+    """
     
     def __init__(self, n0, consumption=0.0, r0=1000, α=False):
+        """Initialize the population object with an initial population vector.
+
+        Args:
+            n0 (numpy.ndarray): The initial composition of the population. 
+            consumption (float, optional): Per capita consumption (excluding egg and dauer larvae). Defaults to 0.0.
+            r0 (int, optional): Initial resource. Defaults to 1000.
+        """
         self.pop = n0
         self.resource = r0
         self.α = α
@@ -33,6 +42,11 @@ class Population(object):
     
     @property
     def comb_f_mat(self):
+        """Generate the fecundity block matrix.
+
+        Returns:
+            numpy.matrix: The block matrix containing the fecundity matrices. 
+        """
         if self._diet != self.diet_stat_pre or not hasattr(self, 'f_mat_A'):
             self.f_mat_A = self.gen_fec_matrix('A', self.diet, 0.0415)
             self.f_mat_C = self.gen_fec_matrix('C', self.diet, 0.0415)
@@ -59,6 +73,11 @@ class Population(object):
     
     @property
     def comb_u_mat(self):
+        """Generate the transition block matrix.
+
+        Returns:
+            numpy.matrix
+        """
         u_A, u_C = self.u_mat
         comb_u_mat = np.block([[u_A, np.zeros((10,10))],
                                [np.zeros((10,10)), u_C]])
@@ -66,16 +85,37 @@ class Population(object):
             
     @property
     def fund_mat(self):
+        """Generate the fundamental matrices for the two strains in the population.
+
+        Returns:
+            tuple: strain A and strain c fundamental matrices 
+        """
         u_A, u_C = self.u_mat
         return (np.linalg.inv(np.identity(10) - u_A), np.linalg.inv(np.identity(10) - u_C))
     
     @property
     def growth_rate(self):
+        """Calculate the per generation growth rate (R0).
+
+        Returns:
+            tuple: leading Eigenvalues of A and strain c
+        """
         fund_m = self.fund_mat
         return (np.linalg.eig(self.f_mat_A*fund_m[0])[0][0], np.linalg.eig(self.f_mat_C*fund_m[0])[0][0])
         
     @staticmethod
     def generate_matrix(r, diet, strain, r_min=100):
+        """Generate the transition matrix.
+
+        Args:
+            r (float): Current resource level
+            diet (str): Current diet
+            strain (str): strain of interest
+            r_min (int, optional): The minimum level of resource before switching to low resource condition. Defaults to 100.
+
+        Returns:
+            numpy.matrix
+        """
         U = np.identity(10) * 0
         γ_JE  = lambda r: 0.0415 if r > r_min else 0.0
         γ_DJ = lambda r: 0.0415 if r < r_min else 0.0
@@ -134,7 +174,7 @@ class Population(object):
             food_type (str): The bacterial diet (Novo or OP50)
 
         Returns:
-            numpy matrix: fecundity values for each breeding developmental stage.
+            numpy.matrix: fecundity values for each breeding developmental stage.
         """
         F = np.identity(10) * 0
         count = 0
@@ -144,6 +184,8 @@ class Population(object):
         return np.matrix(F)
     
     def predation(self):
+        """Calculate the effect of predation on abundance of juveniles and dauer larvae. 
+        """
         # C killing A
         juvenile_a = self.pop[1][0] 
         dauer_a = self.pop[2][0]
@@ -170,6 +212,8 @@ class Population(object):
         self.pop[12][0] = dauer_c
     
     def take_a_step(self):
+        """Calculate the population composition at t+1.
+        """
         self.pop = np.array(np.matmul(self.comb_u_mat + self.comb_f_mat, self.pop))
         if self.α > 0:
             self.predation()
@@ -187,6 +231,15 @@ class MetaPopulation(object):
                        [0, 1, 0]])
     
     def __init__(self, dim, pred_rate, c, r_rate=0, diff_boundary='symm'):
+        """Initialize the MetaPopulation object.
+
+        Args:
+            dim (int): the dimension of the lattice.
+            pred_rate (float): the predation rate.
+            c (float): the consumption rate.
+            r_rate (int, optional): Dispersion rate. Defaults to 0.
+            diff_boundary (str, optional): The diffusion pattern (for Periodic boundary condition, set to 'wrap'). Defaults to 'symm'.
+        """
         self.dim = dim
         self.pred_rate = pred_rate
         self.cons_rate = c
@@ -196,6 +249,8 @@ class MetaPopulation(object):
         self.fill_pop()
         
     def set_diet_comp(self, style):
+        """Distribute the resources across according to the style ('OP50', 'Novo', 'quad_1', 'quad_2', 'rand').
+        """
         if style == 'OP50':
             diet_comp = {i:'OP50' for i in self.index}
         if style == 'Novo':
@@ -216,10 +271,18 @@ class MetaPopulation(object):
             self.metapop[i].diet = diet_comp[i]
         
     def fill_pop(self):
+        """Fill the MetaPopulation with empty population objects.
+        """
         n0_empty = np.array([[0],  [0], [0], [0], [0], [0], [0], [0], [0], [0], [0],  [0], [0], [0], [0], [0], [0], [0], [0], [0]])
         self.metapop = {i:Population(n0_empty, consumption=self.cons_rate, α=self.pred_rate) for i in self.index}
         
     def add_pop(self, loc, strain):
+        """Add Population to specific location on the lattice. 
+
+        Args:
+            loc (tuple): The location on the lattice.
+            strain (str): 'A' or 'C'.
+        """
         if strain == 'A':
             n0_A = np.array([[0], [50], [0], [0], [0], [0], [0], [0], [0], [0], [0],  [0], [0], [0], [0], [0], [0], [0], [0], [0]])
             self.metapop[loc] = Population(n0_A, consumption=self.cons_rate, α=self.pred_rate)
@@ -228,11 +291,15 @@ class MetaPopulation(object):
             self.metapop[loc] = Population(n0_C, consumption=self.cons_rate, α=self.pred_rate)
             
     def reset_food(self, r0=1000):
+        """Set the food in all subpopulations to r0.
+        """
         for i in self.index:
             self.metapop[i].resource = r0
 
     @property
     def daur_dist(self):
+        """The number of dauer larvae on the MetaPopulation.
+        """
         dist_A = np.zeros((self.dim, self.dim))
         dist_C = np.zeros((self.dim, self.dim))
         for i in self.index:
@@ -242,6 +309,8 @@ class MetaPopulation(object):
     
     @property
     def r_dist(self):
+        """Get the number of resource in each subpopulation.
+        """
         r_patt = np.zeros((self.dim, self.dim))
         for i in self.index:
             r_patt[i[0]][i[1]] = self.metapop[i].resource
@@ -249,6 +318,8 @@ class MetaPopulation(object):
     
     @property
     def ra_dist(self):
+        """Get the number of reproducing adults.
+        """
         dist_A = np.zeros((self.dim, self.dim))
         dist_C = np.zeros((self.dim, self.dim))
         for i in self.index:
@@ -257,6 +328,8 @@ class MetaPopulation(object):
         return dist_A, dist_C
     
     def diffuse_dauer(self):
+        """Diffuse dauer larvae across the MetPopulation based on the kernel.
+        """
         a, c = self.daur_dist
         total = np.sum(a) + np.sum(c)
         if total >= 0:
@@ -278,6 +351,8 @@ class MetaPopulation(object):
                     self.metapop[i].pop[12][0] = f_c[i[0]][i[1]]
 
     def simulate_pops_one_step(self):
+        """Calculate the composition of the MetaPopulation at t+1.
+        """
         for i in self.index:
             self.metapop[i].take_a_step()
 
