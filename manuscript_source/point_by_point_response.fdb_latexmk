@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1688647648 "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.tex" "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.pdf" "point_by_point_response" 1688660364
+["pdflatex"] 1688647648 "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.tex" "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.pdf" "point_by_point_response" 1688660417
   "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.aux" 1688647649 8 a94a2480d3289e625eea47cd1b285758 ""
   "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.tex" 1688660361 6637 45529afeaa2b801ef563057d566d681d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -40,8 +40,8 @@
   "point_by_point_response.aux" 1688647649 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
   "point_by_point_response.tex" 1688660361 6637 45529afeaa2b801ef563057d566d681d ""
   (generated)
-  "point_by_point_response.aux"
-  "point_by_point_response.pdf"
-  "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.log"
   "point_by_point_response.log"
   "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.pdf"
+  "point_by_point_response.pdf"
+  "/Users/akalirad/Documents/MetaPopProjection/manuscript_source/point_by_point_response.log"
+  "point_by_point_response.aux"
