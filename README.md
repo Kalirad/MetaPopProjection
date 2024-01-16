@@ -7,9 +7,9 @@ Kalirad A and Sommer RJ. _Spatial and temporal heterogeneity alter the cost of p
 
 ## Contents:
 
-metapop.py: The model written in Python 
+metapop.py: The model written in Python 3.11.5.
 
-metapop_alt.py: A version of the model which lacks density-dependent mortality. 
+metapop_alt.py: A version of the model which lacks density-dependent mortality written in Python 3.11.5. 
 
 figures.ipynb: ipython notebook to generate the results.
 
