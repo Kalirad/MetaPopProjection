@@ -2,7 +2,7 @@
 
 Data and code associated with:
 
-Kalirad A and Sommer RJ. _Spatial and temporal heterogeneity alter the cost of plasticity in Pristionchus pacificus_.
+Kalirad A and Sommer RJ. _Spatial and temporal heterogeneity alter the cost of plasticity in Pristionchus pacificus_, PLoS Comput Biol 20(1): e1011823
 
 
 ## Contents:
